@@ -1,4 +1,4 @@
-import {UserProvider} from "./context/UserProvider.tsx";
+
 import { Route, Routes} from "react-router-dom";
 import {HomePage} from "./pages/HomePage.tsx";
 import {AboutPage} from "./pages/AboutPage.tsx";
@@ -10,7 +10,7 @@ export const MainApp=()=>{
 
     return(
         <>
-        <UserProvider>
+
             <NavBarComponent></NavBarComponent>
 
 
@@ -22,7 +22,6 @@ export const MainApp=()=>{
                 </Routes>
 
 
-        </UserProvider>
         </>
     );
 }
