@@ -2,10 +2,11 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 
 import './index.css'
-import {CounterApp} from "./02-useState/CounterApp.tsx";
+
+import {SimpleForm} from "./03-useEffects/SimpleForm.tsx";
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <CounterApp />
+    <SimpleForm />
   </React.StrictMode>,
 )
