@@ -1,13 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import {MainApp} from "./05-useContext/UserSharedInfo/MainApp.tsx";
+
 import {BrowserRouter} from "react-router-dom";
+import {BreakingBadQuotes} from "./06-apiFetch/breakingBadApi/BreakingBadQuotes.tsx";
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
     <React.StrictMode>
         <BrowserRouter>
-            <MainApp/>
+            <BreakingBadQuotes/>
         </BrowserRouter>
     </React.StrictMode>,
 )
