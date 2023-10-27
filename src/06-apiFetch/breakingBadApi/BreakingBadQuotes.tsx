@@ -11,8 +11,8 @@ export const BreakingBadQuotes = () => {
     }
 
     return (
-        <>
 
+        <>
             <h1>BreakingBad Quotes</h1>
             <hr/>
 
