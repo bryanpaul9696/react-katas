@@ -10,7 +10,6 @@ import {AppTheme} from "./07-materialDesing/materialu1-themes/themes";
 ReactDOM.createRoot(document.getElementById('root')!).render(
     <React.StrictMode>
         <BrowserRouter>
-
             <AppTheme>
                 <HomeTheme />
             </AppTheme>
