@@ -13,8 +13,9 @@ export const Navbar = () => {
                         className={ ({isActive}) => `nav-item nav-link  ${ isActive ? 'active':'' }` }
                         to="/"
                     >
-                       Heroes
+                       Heroes App
                     </NavLink>
+
 
                 </div>
             </div>
