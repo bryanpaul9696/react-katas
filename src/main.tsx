@@ -4,15 +4,12 @@ import './index.css'
 
 import {BrowserRouter} from "react-router-dom";
 
-import {HomeTheme} from "./07-materialDesing/materialu1-themes/pages/HomeTheme.tsx";
-import {AppTheme} from "./07-materialDesing/materialu1-themes/themes";
+import {Scheme} from "./shared/scheme/Scheme.tsx";
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
     <React.StrictMode>
         <BrowserRouter>
-            <AppTheme>
-                <HomeTheme/>
-            </AppTheme>
+                <Scheme/>
         </BrowserRouter>
-    </React.StrictMode>,
+    </React.StrictMode>
 )
