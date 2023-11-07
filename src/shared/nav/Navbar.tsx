@@ -16,6 +16,14 @@ export const Navbar = () => {
                        Heroes App
                     </NavLink>
 
+                    <NavLink
+                        className={ ({isActive}) => `nav-item nav-link  ${ isActive ? 'active':'' }` }
+                        to="/login"
+                    >
+                    Router protect
+                    </NavLink>
+
+
 
                 </div>
             </div>
